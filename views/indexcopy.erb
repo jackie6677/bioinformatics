@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Kihara Lab Data Visualization</title>
+
+<!-- CSS Files -->
+<link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
+<link type="text/css" href="css/base.css" rel="stylesheet" />
+<link type="text/css" href="css/nprogress.css" rel="stylesheet">
+
+<!-- JS -->
+<script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="js/nprogress.js"></script>
+
+<!--[if IE]><script language="javascript" type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+
+<!-- JIT Library File -->
+<script language="javascript" type="text/javascript" src="js/jit.js"></script>
+
+<!-- Example File -->
+<script language="javascript" type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body onload="init();">
+  
+  <div id="infovis"></div>    
+  <div id="log"></div>
+  <div id="controls">
+    <h2>Controls</h2>
+    <input id="search-txt"/>
+    <a class="btn" id="search-btn">Search</a>
+    <a class="btn" id="center-btn">Center</a>
+    <a class="btn" id="match-btn">Match</a>
+ 
+ </div>
+  
+  
+  <div id="go-term" style="display:none;"><%= go_term %></div>
+</body>
+</html>

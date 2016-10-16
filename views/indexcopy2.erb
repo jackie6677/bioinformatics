@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Kihara Lab Data Visualization</title>
+
+<!-- CSS Files -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/smoothness/jquery-ui.css" />
+
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+   
+<link type="text/css" href="css/base.css" rel="stylesheet" />
+<link type="text/css" href="css/nprogress.css" rel="stylesheet">
+
+<!-- JS -->
+<script language="javascript" type="text/javascript" src="js/nprogress.js"></script>
+
+<!--[if IE]><script language="javascript" type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+
+<!-- JIT Library File -->
+<script language="javascript" type="text/javascript" src="js/jit.js"></script>
+
+<!-- Example File -->
+<script language="javascript" type="text/javascript" src="js/main.js"></script>
+<style>
+		#settings {
+		display:block;
+		position: absolute;
+		width: 200px;
+		right: 20px;
+		top: 58px;
+		overflow-y: auto;
+		}
+		#settings > label {
+		
+		clear: both;
+		
+		margin-top: 6px;
+		margin-right: 10px;
+		width: 107px;
+		}
+		.settings-box {
+		
+		width: 100%;
+		float: left;
+		}
+		body{
+		height:100%;
+		}
+	
+	    </style>
+</head>
+
+<body onload="init();">
+
+   
+	  <div id="infovis"></div>  
+  
+ <div id="settings">
+  <h3>Information</h3>
+  <div id="log"></div>
+  <p>
+  <label for="amount">Edge Length:</label>
+  <input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;">
+  </p>
+ 
+  <div id="slider-range-min"></div>
+  <label for="amount">Node height:</label>
+  <input type="text" id="amount2" style="border:0; color:#f6931f; font-weight:bold;">
+  </p>
+ 
+  <div id="slider-height-min"></div>
+  <label>
+  <i style="margin-top:3px" class="glyphicon glyphicon-info-sign"></i>
+  go_term id:
+  </label>
+  <input type="text" class="form-control settings-box" id="go-id">
+  <label>
+  
+  <i style="margin-top:3px" class="glyphicon glyphicon-info-sign"></i>
+  name:
+  </label>
+  <input type="text" class="form-control settings-box" id="go-name">
+  
+  <label>
+  Test Upload:
+  </label>
+  <textarea style="margin-top:10px" class="form-control" id="submit-txt"></textarea>
+  
+  <button style="margin-top:10px" class="btn btn-default btn-primary" id="match-path-btn">Submit</button>
+  <br>
+  <button style="margin-top:10px" class="btn btn-default" id="reset-btn">Reset All</button>
+	<br>
+ </div>
+
+  
+  <div id="go-term" style="display:none;"><%= go_term %></div>
+ 
+</body>
+</html>

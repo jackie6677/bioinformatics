@@ -1,0 +1,3390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PFP_Job>
+	<job_id>36011</job_id>
+	<date_created>2014-02-25</date_created>
+	<numSequences>1</numSequences>
+	<sequences>
+		<sequence id="1">
+			<protein_sequence>MAKYEHMMECLGKTPVRVIWKDGDVEVRAEGDPMIERCPLMRRREGFSKLTREAAERHVLNKVNEVGMFTPKRRIRSCRRYTPFGVSETLMTCLQHRLIDAAVIVSDCAGTVVTDKPAIVQGLCGEISGIRDTDPIPEVVDRLEDSGCSVLGRIDQREGVEIALEEGRRFVAVTVADAGDAEAIREEFGDDVLIAAVHTTGTDEEDAERLVQYCDIITGCASKAVRRAAGRRYILKVGSRVPVYGITPAGAEALWLNVRELLGNLKLEVRHLG</protein_sequence>
+			<description>gi|20093590|ref|NP_613437.1| hypo protein MK0150 [Methanopyrus kandleri AV19]</description>
+			<results>
+				<prediction>
+					<GO_TERM>GO:0003674</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>1.00</normalized_raw_score>
+					<raw_score>7.02813532375097</raw_score>
+					<norm_rank>1</norm_rank>
+					<go_term_definition>molecular_function</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005488</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.88</normalized_raw_score>
+					<raw_score>6.20335585931794</raw_score>
+					<norm_rank>2</norm_rank>
+					<go_term_definition>binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0000166</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.83</normalized_raw_score>
+					<raw_score>5.80540218064419</raw_score>
+					<norm_rank>3</norm_rank>
+					<go_term_definition>nucleotide binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0017076</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.81</normalized_raw_score>
+					<raw_score>5.72335717602448</raw_score>
+					<norm_rank>4</norm_rank>
+					<go_term_definition>purine nucleotide binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043169</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.61</normalized_raw_score>
+					<raw_score>4.26610624770189</raw_score>
+					<norm_rank>5</norm_rank>
+					<go_term_definition>cation binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043167</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.61</normalized_raw_score>
+					<raw_score>4.25867827525679</raw_score>
+					<norm_rank>6</norm_rank>
+					<go_term_definition>ion binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0003676</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.59</normalized_raw_score>
+					<raw_score>4.17122402759902</raw_score>
+					<norm_rank>7</norm_rank>
+					<go_term_definition>nucleic acid binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016787</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.48</normalized_raw_score>
+					<raw_score>3.35984907407136</raw_score>
+					<norm_rank>8</norm_rank>
+					<go_term_definition>hydrolase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046872</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.46</normalized_raw_score>
+					<raw_score>3.23732877180896</raw_score>
+					<norm_rank>9</norm_rank>
+					<go_term_definition>metal ion binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0003824</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.44</normalized_raw_score>
+					<raw_score>3.12451321582811</raw_score>
+					<norm_rank>10</norm_rank>
+					<go_term_definition>catalytic activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005524</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.42</normalized_raw_score>
+					<raw_score>2.93483930428469</raw_score>
+					<norm_rank>11</norm_rank>
+					<go_term_definition>ATP binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0032559</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.42</normalized_raw_score>
+					<raw_score>2.92844568543685</raw_score>
+					<norm_rank>12</norm_rank>
+					<go_term_definition>adenyl ribonucleotide binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0030554</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.41</normalized_raw_score>
+					<raw_score>2.8980085379194</raw_score>
+					<norm_rank>13</norm_rank>
+					<go_term_definition>adenyl nucleotide binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005515</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.38</normalized_raw_score>
+					<raw_score>2.65630943441639</raw_score>
+					<norm_rank>14</norm_rank>
+					<go_term_definition>protein binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0035639</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.38</normalized_raw_score>
+					<raw_score>2.64807345684182</raw_score>
+					<norm_rank>15</norm_rank>
+					<go_term_definition>purine ribonucleoside triphosphate binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0032555</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.38</normalized_raw_score>
+					<raw_score>2.64042585782887</raw_score>
+					<norm_rank>16</norm_rank>
+					<go_term_definition>purine ribonucleotide binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0032553</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.38</normalized_raw_score>
+					<raw_score>2.64037326913247</raw_score>
+					<norm_rank>17</norm_rank>
+					<go_term_definition>ribonucleotide binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0003677</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.34</normalized_raw_score>
+					<raw_score>2.38530014902412</raw_score>
+					<norm_rank>18</norm_rank>
+					<go_term_definition>DNA binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004908</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.29</normalized_raw_score>
+					<raw_score>2.03374862283498</raw_score>
+					<norm_rank>19</norm_rank>
+					<go_term_definition>interleukin-1 receptor activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0030145</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.29</normalized_raw_score>
+					<raw_score>2.004482088498</raw_score>
+					<norm_rank>20</norm_rank>
+					<go_term_definition>manganese ion binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004619</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.26</normalized_raw_score>
+					<raw_score>1.8511219892338</raw_score>
+					<norm_rank>21</norm_rank>
+					<go_term_definition>phosphoglycerate mutase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0019966</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.26</normalized_raw_score>
+					<raw_score>1.82336083426584</raw_score>
+					<norm_rank>22</norm_rank>
+					<go_term_definition>interleukin-1 binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0003723</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.26</normalized_raw_score>
+					<raw_score>1.79880870271019</raw_score>
+					<norm_rank>23</norm_rank>
+					<go_term_definition>RNA binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008270</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.25</normalized_raw_score>
+					<raw_score>1.73545818036634</raw_score>
+					<norm_rank>24</norm_rank>
+					<go_term_definition>zinc ion binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004533</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.25</normalized_raw_score>
+					<raw_score>1.73545818036634</raw_score>
+					<norm_rank>25</norm_rank>
+					<go_term_definition>exoribonuclease H activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004523</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.25</normalized_raw_score>
+					<raw_score>1.73545818036634</raw_score>
+					<norm_rank>26</norm_rank>
+					<go_term_definition>ribonuclease H activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004190</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.25</normalized_raw_score>
+					<raw_score>1.73545818036634</raw_score>
+					<norm_rank>27</norm_rank>
+					<go_term_definition>aspartic-type endopeptidase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0003964</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.25</normalized_raw_score>
+					<raw_score>1.73545818036634</raw_score>
+					<norm_rank>28</norm_rank>
+					<go_term_definition>RNA-directed DNA polymerase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0070001</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.25</normalized_raw_score>
+					<raw_score>1.72736369258478</raw_score>
+					<norm_rank>29</norm_rank>
+					<go_term_definition>aspartic-type peptidase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004910</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.24</normalized_raw_score>
+					<raw_score>1.65242075605342</raw_score>
+					<norm_rank>30</norm_rank>
+					<go_term_definition>interleukin-1, Type II, blocking receptor activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004170</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.20</normalized_raw_score>
+					<raw_score>1.3952478919752</raw_score>
+					<norm_rank>31</norm_rank>
+					<go_term_definition>dUTP diphosphatase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046537</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.19</normalized_raw_score>
+					<raw_score>1.32245543646882</raw_score>
+					<norm_rank>32</norm_rank>
+					<go_term_definition>2,3-bisphosphoglycerate-independent phosphoglycerate mutase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046914</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.16</normalized_raw_score>
+					<raw_score>1.15158919034925</raw_score>
+					<norm_rank>33</norm_rank>
+					<go_term_definition>transition metal ion binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016868</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.13</normalized_raw_score>
+					<raw_score>0.935834255370707</raw_score>
+					<norm_rank>34</norm_rank>
+					<go_term_definition>intramolecular transferase activity, phosphotransferases</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0052381</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.866551078621726</raw_score>
+					<norm_rank>35</norm_rank>
+					<go_term_definition>tRNA dimethylallyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0047429</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.823661874088925</raw_score>
+					<norm_rank>36</norm_rank>
+					<go_term_definition>nucleoside-triphosphate diphosphatase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004618</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.818246399047171</raw_score>
+					<norm_rank>37</norm_rank>
+					<go_term_definition>phosphoglycerate kinase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016891</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.11</normalized_raw_score>
+					<raw_score>0.795582090449402</raw_score>
+					<norm_rank>38</norm_rank>
+					<go_term_definition>endoribonuclease activity, producing 5'-phosphomonoesters</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004611</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.11</normalized_raw_score>
+					<raw_score>0.780824905360512</raw_score>
+					<norm_rank>39</norm_rank>
+					<go_term_definition>phosphoenolpyruvate carboxykinase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005525</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.10</normalized_raw_score>
+					<raw_score>0.682026652029182</raw_score>
+					<norm_rank>40</norm_rank>
+					<go_term_definition>GTP binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004613</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.10</normalized_raw_score>
+					<raw_score>0.682026652029182</raw_score>
+					<norm_rank>41</norm_rank>
+					<go_term_definition>phosphoenolpyruvate carboxykinase (GTP) activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0032561</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.10</normalized_raw_score>
+					<raw_score>0.674701163077306</raw_score>
+					<norm_rank>42</norm_rank>
+					<go_term_definition>guanyl ribonucleotide binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0019001</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.10</normalized_raw_score>
+					<raw_score>0.674654412719554</raw_score>
+					<norm_rank>43</norm_rank>
+					<go_term_definition>guanyl nucleotide binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0003899</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.649841968657781</raw_score>
+					<norm_rank>44</norm_rank>
+					<go_term_definition>DNA-directed RNA polymerase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016893</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.599060716584433</raw_score>
+					<norm_rank>45</norm_rank>
+					<go_term_definition>endonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004521</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.08</normalized_raw_score>
+					<raw_score>0.543697599287885</raw_score>
+					<norm_rank>46</norm_rank>
+					<go_term_definition>endoribonuclease activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016758</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.08</normalized_raw_score>
+					<raw_score>0.542024990172507</raw_score>
+					<norm_rank>47</norm_rank>
+					<go_term_definition>transferase activity, transferring hexosyl groups</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004553</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.08</normalized_raw_score>
+					<raw_score>0.528982174587528</raw_score>
+					<norm_rank>48</norm_rank>
+					<go_term_definition>hydrolase activity, hydrolyzing O-glycosyl compounds</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0003844</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.08</normalized_raw_score>
+					<raw_score>0.528982174587528</raw_score>
+					<norm_rank>49</norm_rank>
+					<go_term_definition>1,4-alpha-glucan branching enzyme activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008017</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.08</normalized_raw_score>
+					<raw_score>0.528798275933005</raw_score>
+					<norm_rank>50</norm_rank>
+					<go_term_definition>microtubule binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005543</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.08</normalized_raw_score>
+					<raw_score>0.528798275933005</raw_score>
+					<norm_rank>51</norm_rank>
+					<go_term_definition>phospholipid binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0003777</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.08</normalized_raw_score>
+					<raw_score>0.528798275933005</raw_score>
+					<norm_rank>52</norm_rank>
+					<go_term_definition>microtubule motor activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0050253</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.51721640338319</raw_score>
+					<norm_rank>53</norm_rank>
+					<go_term_definition>retinyl-palmitate esterase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004806</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.51721640338319</raw_score>
+					<norm_rank>54</norm_rank>
+					<go_term_definition>triglyceride lipase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0034062</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.511511553138817</raw_score>
+					<norm_rank>55</norm_rank>
+					<go_term_definition>RNA polymerase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0052638</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.505935392973501</raw_score>
+					<norm_rank>56</norm_rank>
+					<go_term_definition>indole-3-butyrate beta-glucosyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0018024</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.467354279759089</raw_score>
+					<norm_rank>57</norm_rank>
+					<go_term_definition>histone-lysine N-methyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005096</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.463531544420414</raw_score>
+					<norm_rank>58</norm_rank>
+					<go_term_definition>GTPase activator activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016740</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.448758338002885</raw_score>
+					<norm_rank>59</norm_rank>
+					<go_term_definition>transferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0015631</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.427331448078702</raw_score>
+					<norm_rank>60</norm_rank>
+					<go_term_definition>tubulin binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004107</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.415758762624413</raw_score>
+					<norm_rank>61</norm_rank>
+					<go_term_definition>chorismate synthase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0034061</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.404424798714569</raw_score>
+					<norm_rank>62</norm_rank>
+					<go_term_definition>DNA polymerase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016279</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.403492204264058</raw_score>
+					<norm_rank>63</norm_rank>
+					<go_term_definition>protein-lysine N-methyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016278</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.403492204264058</raw_score>
+					<norm_rank>64</norm_rank>
+					<go_term_definition>lysine N-methyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004540</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.398275656139371</raw_score>
+					<norm_rank>65</norm_rank>
+					<go_term_definition>ribonuclease activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016462</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.387342486403233</raw_score>
+					<norm_rank>66</norm_rank>
+					<go_term_definition>pyrophosphatase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016818</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.379269024029685</raw_score>
+					<norm_rank>67</norm_rank>
+					<go_term_definition>hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016817</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.375984171924803</raw_score>
+					<norm_rank>68</norm_rank>
+					<go_term_definition>hydrolase activity, acting on acid anhydrides</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016866</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.375143491007332</raw_score>
+					<norm_rank>69</norm_rank>
+					<go_term_definition>intramolecular transferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0042054</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.367018332692166</raw_score>
+					<norm_rank>70</norm_rank>
+					<go_term_definition>histone methyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0003922</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.364606240177032</raw_score>
+					<norm_rank>71</norm_rank>
+					<go_term_definition>GMP synthase (glutamine-hydrolyzing) activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016783</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.356637310505756</raw_score>
+					<norm_rank>72</norm_rank>
+					<go_term_definition>sulfurtransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004808</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.356637310505756</raw_score>
+					<norm_rank>73</norm_rank>
+					<go_term_definition>tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0000049</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.356637310505756</raw_score>
+					<norm_rank>74</norm_rank>
+					<go_term_definition>tRNA binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016798</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.338665878620389</raw_score>
+					<norm_rank>75</norm_rank>
+					<go_term_definition>hydrolase activity, acting on glycosyl bonds</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008047</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.277014027397671</raw_score>
+					<norm_rank>76</norm_rank>
+					<go_term_definition>enzyme activator activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004519</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.276743668870031</raw_score>
+					<norm_rank>77</norm_rank>
+					<go_term_definition>endonuclease activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0030695</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.276386589057019</raw_score>
+					<norm_rank>78</norm_rank>
+					<go_term_definition>GTPase regulator activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016774</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.256523621412096</raw_score>
+					<norm_rank>79</norm_rank>
+					<go_term_definition>phosphotransferase activity, carboxyl group as acceptor</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008289</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.252378193246645</raw_score>
+					<norm_rank>80</norm_rank>
+					<go_term_definition>lipid binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016779</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.252249924828285</raw_score>
+					<norm_rank>81</norm_rank>
+					<go_term_definition>nucleotidyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004896</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.24825100560427</raw_score>
+					<norm_rank>82</norm_rank>
+					<go_term_definition>cytokine receptor activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016782</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.247378481275669</raw_score>
+					<norm_rank>83</norm_rank>
+					<go_term_definition>transferase activity, transferring sulfur-containing groups</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016757</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.207292917629692</raw_score>
+					<norm_rank>84</norm_rank>
+					<go_term_definition>transferase activity, transferring glycosyl groups</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0019838</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.206552594506677</raw_score>
+					<norm_rank>85</norm_rank>
+					<go_term_definition>growth factor binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004175</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.199949668335049</raw_score>
+					<norm_rank>86</norm_rank>
+					<go_term_definition>endopeptidase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0060589</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.186439540211877</raw_score>
+					<norm_rank>87</norm_rank>
+					<go_term_definition>nucleoside-triphosphatase regulator activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004518</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.185105627291163</raw_score>
+					<norm_rank>88</norm_rank>
+					<go_term_definition>nuclease activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016838</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.157093798490305</raw_score>
+					<norm_rank>89</norm_rank>
+					<go_term_definition>carbon-oxygen lyase activity, acting on phosphates</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008092</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.15138146722788</raw_score>
+					<norm_rank>90</norm_rank>
+					<go_term_definition>cytoskeletal protein binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0003774</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.142122539052212</raw_score>
+					<norm_rank>91</norm_rank>
+					<go_term_definition>motor activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0070011</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.130046623951885</raw_score>
+					<norm_rank>92</norm_rank>
+					<go_term_definition>peptidase activity, acting on L-amino acid peptides</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008233</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.126527767574368</raw_score>
+					<norm_rank>93</norm_rank>
+					<go_term_definition>peptidase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016853</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.124160303710309</raw_score>
+					<norm_rank>94</norm_rank>
+					<go_term_definition>isomerase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016772</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.109904004114418</raw_score>
+					<norm_rank>95</norm_rank>
+					<go_term_definition>transferase activity, transferring phosphorus-containing groups</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0019955</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.109025699368473</raw_score>
+					<norm_rank>96</norm_rank>
+					<go_term_definition>cytokine binding</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016765</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.103291426038244</raw_score>
+					<norm_rank>97</norm_rank>
+					<go_term_definition>transferase activity, transferring alkyl or aryl (other than methyl) groups</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016788</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.102582275922652</raw_score>
+					<norm_rank>98</norm_rank>
+					<go_term_definition>hydrolase activity, acting on ester bonds</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016831</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0999677939246175</raw_score>
+					<norm_rank>99</norm_rank>
+					<go_term_definition>carboxy-lyase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008175</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0959406082420042</raw_score>
+					<norm_rank>100</norm_rank>
+					<go_term_definition>tRNA methyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008276</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0891726079430518</raw_score>
+					<norm_rank>101</norm_rank>
+					<go_term_definition>protein methyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016896</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0877991326466545</raw_score>
+					<norm_rank>102</norm_rank>
+					<go_term_definition>exoribonuclease activity, producing 5'-phosphomonoesters</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004532</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0876264130414478</raw_score>
+					<norm_rank>103</norm_rank>
+					<go_term_definition>exoribonuclease activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016830</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0728762508556152</raw_score>
+					<norm_rank>104</norm_rank>
+					<go_term_definition>carbon-carbon lyase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016298</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0673509210636057</raw_score>
+					<norm_rank>105</norm_rank>
+					<go_term_definition>lipase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0030234</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0662367643200835</raw_score>
+					<norm_rank>106</norm_rank>
+					<go_term_definition>enzyme regulator activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016796</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0537531294803733</raw_score>
+					<norm_rank>107</norm_rank>
+					<go_term_definition>exonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016884</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0526104325572454</raw_score>
+					<norm_rank>108</norm_rank>
+					<go_term_definition>carbon-nitrogen ligase activity, with glutamine as amido-N-donor</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008757</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0418686893806711</raw_score>
+					<norm_rank>109</norm_rank>
+					<go_term_definition>S-adenosylmethionine-dependent methyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0052689</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0393363571544382</raw_score>
+					<norm_rank>110</norm_rank>
+					<go_term_definition>carboxylic ester hydrolase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008173</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0373268065917941</raw_score>
+					<norm_rank>111</norm_rank>
+					<go_term_definition>RNA methyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016829</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0342652421467201</raw_score>
+					<norm_rank>112</norm_rank>
+					<go_term_definition>lyase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008170</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0323275665023704</raw_score>
+					<norm_rank>113</norm_rank>
+					<go_term_definition>N-methyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004527</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.031892668231076</raw_score>
+					<norm_rank>114</norm_rank>
+					<go_term_definition>exonuclease activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008168</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0285189854313106</raw_score>
+					<norm_rank>115</norm_rank>
+					<go_term_definition>methyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016301</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0281307509219588</raw_score>
+					<norm_rank>116</norm_rank>
+					<go_term_definition>kinase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016835</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0243519262097434</raw_score>
+					<norm_rank>117</norm_rank>
+					<go_term_definition>carbon-oxygen lyase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016741</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0233007237427656</raw_score>
+					<norm_rank>118</norm_rank>
+					<go_term_definition>transferase activity, transferring one-carbon groups</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016879</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0150843175902238</raw_score>
+					<norm_rank>119</norm_rank>
+					<go_term_definition>ligase activity, forming carbon-nitrogen bonds</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004888</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0111063776924405</raw_score>
+					<norm_rank>120</norm_rank>
+					<go_term_definition>transmembrane signaling receptor activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0038023</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00950862510226747</raw_score>
+					<norm_rank>121</norm_rank>
+					<go_term_definition>signaling receptor activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004872</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00837463797809779</raw_score>
+					<norm_rank>122</norm_rank>
+					<go_term_definition>receptor activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016874</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00727229128186282</raw_score>
+					<norm_rank>123</norm_rank>
+					<go_term_definition>ligase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0004871</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00605074541637595</raw_score>
+					<norm_rank>124</norm_rank>
+					<go_term_definition>signal transducer activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0060089</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00603761865650941</raw_score>
+					<norm_rank>125</norm_rank>
+					<go_term_definition>molecular transducer activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0017111</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0049869675980088</raw_score>
+					<norm_rank>126</norm_rank>
+					<go_term_definition>nucleoside-triphosphatase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0035251</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00134200369488992</raw_score>
+					<norm_rank>127</norm_rank>
+					<go_term_definition>UDP-glucosyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046527</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.000615493178799879</raw_score>
+					<norm_rank>128</norm_rank>
+					<go_term_definition>glucosyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008194</GO_TERM>
+					<category>f</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.000240121211662791</raw_score>
+					<norm_rank>129</norm_rank>
+					<go_term_definition>UDP-glycosyltransferase activity</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0019320</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>1.00</normalized_raw_score>
+					<raw_score>4.13409054935694</raw_score>
+					<norm_rank>1</norm_rank>
+					<go_term_definition>hexose catabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006006</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.93</normalized_raw_score>
+					<raw_score>3.86527141420718</raw_score>
+					<norm_rank>2</norm_rank>
+					<go_term_definition>glucose metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046365</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.87</normalized_raw_score>
+					<raw_score>3.58769168476797</raw_score>
+					<norm_rank>3</norm_rank>
+					<go_term_definition>monosaccharide catabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0019318</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.79</normalized_raw_score>
+					<raw_score>3.27034882532287</raw_score>
+					<norm_rank>4</norm_rank>
+					<go_term_definition>hexose metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046080</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.76</normalized_raw_score>
+					<raw_score>3.13070607234154</raw_score>
+					<norm_rank>5</norm_rank>
+					<go_term_definition>dUTP metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046164</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.73</normalized_raw_score>
+					<raw_score>3.03612526746826</raw_score>
+					<norm_rank>6</norm_rank>
+					<go_term_definition>alcohol catabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006007</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.71</normalized_raw_score>
+					<raw_score>2.94771958029313</raw_score>
+					<norm_rank>7</norm_rank>
+					<go_term_definition>glucose catabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044275</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.70</normalized_raw_score>
+					<raw_score>2.89486303956471</raw_score>
+					<norm_rank>8</norm_rank>
+					<go_term_definition>cellular carbohydrate catabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008150</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.64</normalized_raw_score>
+					<raw_score>2.65452066324678</raw_score>
+					<norm_rank>9</norm_rank>
+					<go_term_definition>biological_process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008152</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.62</normalized_raw_score>
+					<raw_score>2.58364690386425</raw_score>
+					<norm_rank>10</norm_rank>
+					<go_term_definition>metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016052</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.60</normalized_raw_score>
+					<raw_score>2.46945674895082</raw_score>
+					<norm_rank>11</norm_rank>
+					<go_term_definition>carbohydrate catabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006096</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.52</normalized_raw_score>
+					<raw_score>2.14070183551599</raw_score>
+					<norm_rank>12</norm_rank>
+					<go_term_definition>glycolysis</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008033</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.51</normalized_raw_score>
+					<raw_score>2.11546688544554</raw_score>
+					<norm_rank>13</norm_rank>
+					<go_term_definition>tRNA processing</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005996</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.45</normalized_raw_score>
+					<raw_score>1.86570119142515</raw_score>
+					<norm_rank>14</norm_rank>
+					<go_term_definition>monosaccharide metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0090305</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.42</normalized_raw_score>
+					<raw_score>1.73545818036634</raw_score>
+					<norm_rank>15</norm_rank>
+					<go_term_definition>nucleic acid phosphodiester bond hydrolysis</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046718</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.42</normalized_raw_score>
+					<raw_score>1.73545818036634</raw_score>
+					<norm_rank>16</norm_rank>
+					<go_term_definition>viral entry into host cell</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0015074</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.42</normalized_raw_score>
+					<raw_score>1.73545818036634</raw_score>
+					<norm_rank>17</norm_rank>
+					<go_term_definition>DNA integration</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006508</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.42</normalized_raw_score>
+					<raw_score>1.73545818036634</raw_score>
+					<norm_rank>18</norm_rank>
+					<go_term_definition>proteolysis</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006310</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.42</normalized_raw_score>
+					<raw_score>1.73545818036634</raw_score>
+					<norm_rank>19</norm_rank>
+					<go_term_definition>DNA recombination</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006278</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.42</normalized_raw_score>
+					<raw_score>1.73545818036634</raw_score>
+					<norm_rank>20</norm_rank>
+					<go_term_definition>RNA-dependent DNA replication</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0019059</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.42</normalized_raw_score>
+					<raw_score>1.73198865181703</raw_score>
+					<norm_rank>21</norm_rank>
+					<go_term_definition>initiation of viral infection</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0051806</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.42</normalized_raw_score>
+					<raw_score>1.72371811308969</raw_score>
+					<norm_rank>22</norm_rank>
+					<go_term_definition>entry into cell of other organism involved in symbiotic interaction</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0030260</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.42</normalized_raw_score>
+					<raw_score>1.72371811308969</raw_score>
+					<norm_rank>23</norm_rank>
+					<go_term_definition>entry into host cell</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0051828</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.41</normalized_raw_score>
+					<raw_score>1.71552618542352</raw_score>
+					<norm_rank>24</norm_rank>
+					<go_term_definition>entry into other organism involved in symbiotic interaction</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044409</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.41</normalized_raw_score>
+					<raw_score>1.71552618542352</raw_score>
+					<norm_rank>25</norm_rank>
+					<go_term_definition>entry into host</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044282</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.41</normalized_raw_score>
+					<raw_score>1.70020041300194</raw_score>
+					<norm_rank>26</norm_rank>
+					<go_term_definition>small molecule catabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006396</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.37</normalized_raw_score>
+					<raw_score>1.53263028446006</raw_score>
+					<norm_rank>27</norm_rank>
+					<go_term_definition>RNA processing</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0052192</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.37</normalized_raw_score>
+					<raw_score>1.51883016065721</raw_score>
+					<norm_rank>28</norm_rank>
+					<go_term_definition>movement in environment of other organism involved in symbiotic interaction</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0052126</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.37</normalized_raw_score>
+					<raw_score>1.51883016065721</raw_score>
+					<norm_rank>29</norm_rank>
+					<go_term_definition>movement in host environment</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009211</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.36</normalized_raw_score>
+					<raw_score>1.48148084044204</raw_score>
+					<norm_rank>30</norm_rank>
+					<go_term_definition>pyrimidine deoxyribonucleoside triphosphate metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006066</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.36</normalized_raw_score>
+					<raw_score>1.4759328414699</raw_score>
+					<norm_rank>31</norm_rank>
+					<go_term_definition>alcohol metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009219</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.34</normalized_raw_score>
+					<raw_score>1.39486904213237</raw_score>
+					<norm_rank>32</norm_rank>
+					<go_term_definition>pyrimidine deoxyribonucleotide metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0034470</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.34</normalized_raw_score>
+					<raw_score>1.38830379911771</raw_score>
+					<norm_rank>33</norm_rank>
+					<go_term_definition>ncRNA processing</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009200</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.33</normalized_raw_score>
+					<raw_score>1.38054934127986</raw_score>
+					<norm_rank>34</norm_rank>
+					<go_term_definition>deoxyribonucleoside triphosphate metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0090304</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.33</normalized_raw_score>
+					<raw_score>1.36583015685993</raw_score>
+					<norm_rank>35</norm_rank>
+					<go_term_definition>nucleic acid metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005975</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.33</normalized_raw_score>
+					<raw_score>1.35079673519144</raw_score>
+					<norm_rank>36</norm_rank>
+					<go_term_definition>carbohydrate metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016070</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.32</normalized_raw_score>
+					<raw_score>1.31077297596275</raw_score>
+					<norm_rank>37</norm_rank>
+					<go_term_definition>RNA metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009394</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.31</normalized_raw_score>
+					<raw_score>1.28296497760744</raw_score>
+					<norm_rank>38</norm_rank>
+					<go_term_definition>2'-deoxyribonucleotide metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006400</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.30</normalized_raw_score>
+					<raw_score>1.22318838912748</raw_score>
+					<norm_rank>39</norm_rank>
+					<go_term_definition>tRNA modification</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006399</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.28</normalized_raw_score>
+					<raw_score>1.16367331884385</raw_score>
+					<norm_rank>40</norm_rank>
+					<go_term_definition>tRNA metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044262</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.28</normalized_raw_score>
+					<raw_score>1.14962241128667</raw_score>
+					<norm_rank>41</norm_rank>
+					<go_term_definition>cellular carbohydrate metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006139</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.25</normalized_raw_score>
+					<raw_score>1.04340656780441</raw_score>
+					<norm_rank>42</norm_rank>
+					<go_term_definition>nucleobase-containing compound metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0019058</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.24</normalized_raw_score>
+					<raw_score>0.984925788584443</raw_score>
+					<norm_rank>43</norm_rank>
+					<go_term_definition>viral infectious cycle</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009262</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.22</normalized_raw_score>
+					<raw_score>0.904468736888644</raw_score>
+					<norm_rank>44</norm_rank>
+					<go_term_definition>deoxyribonucleotide metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0034660</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.22</normalized_raw_score>
+					<raw_score>0.900299891655532</raw_score>
+					<norm_rank>45</norm_rank>
+					<go_term_definition>ncRNA metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009451</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.21</normalized_raw_score>
+					<raw_score>0.884489072517816</raw_score>
+					<norm_rank>46</norm_rank>
+					<go_term_definition>RNA modification</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044238</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.21</normalized_raw_score>
+					<raw_score>0.872850771254214</raw_score>
+					<norm_rank>47</norm_rank>
+					<go_term_definition>primary metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0072522</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.20</normalized_raw_score>
+					<raw_score>0.82897243002134</raw_score>
+					<norm_rank>48</norm_rank>
+					<go_term_definition>purine-containing compound biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0034641</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.20</normalized_raw_score>
+					<raw_score>0.812389362920956</raw_score>
+					<norm_rank>49</norm_rank>
+					<go_term_definition>cellular nitrogen compound metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006807</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.19</normalized_raw_score>
+					<raw_score>0.775881673724236</raw_score>
+					<norm_rank>50</norm_rank>
+					<go_term_definition>nitrogen compound metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0010467</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.18</normalized_raw_score>
+					<raw_score>0.762562726447483</raw_score>
+					<norm_rank>51</norm_rank>
+					<go_term_definition>gene expression</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006259</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.17</normalized_raw_score>
+					<raw_score>0.715904126264746</raw_score>
+					<norm_rank>52</norm_rank>
+					<go_term_definition>DNA metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006164</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.17</normalized_raw_score>
+					<raw_score>0.70567814501055</raw_score>
+					<norm_rank>53</norm_rank>
+					<go_term_definition>purine nucleotide biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009147</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.17</normalized_raw_score>
+					<raw_score>0.699578443689467</raw_score>
+					<norm_rank>54</norm_rank>
+					<go_term_definition>pyrimidine nucleoside triphosphate metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0051701</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.17</normalized_raw_score>
+					<raw_score>0.685613108292875</raw_score>
+					<norm_rank>55</norm_rank>
+					<go_term_definition>interaction with host</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043170</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.17</normalized_raw_score>
+					<raw_score>0.682939845513632</raw_score>
+					<norm_rank>56</norm_rank>
+					<go_term_definition>macromolecule metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006094</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.16</normalized_raw_score>
+					<raw_score>0.682026652029182</raw_score>
+					<norm_rank>57</norm_rank>
+					<go_term_definition>gluconeogenesis</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006351</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.16</normalized_raw_score>
+					<raw_score>0.649841968657781</raw_score>
+					<norm_rank>58</norm_rank>
+					<go_term_definition>transcription, DNA-dependent</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0032774</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.15</normalized_raw_score>
+					<raw_score>0.638932133610317</raw_score>
+					<norm_rank>59</norm_rank>
+					<go_term_definition>RNA biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009165</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.15</normalized_raw_score>
+					<raw_score>0.635996393841809</raw_score>
+					<norm_rank>60</norm_rank>
+					<go_term_definition>nucleotide biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0019319</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.15</normalized_raw_score>
+					<raw_score>0.630548701035549</raw_score>
+					<norm_rank>61</norm_rank>
+					<go_term_definition>hexose biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044403</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.15</normalized_raw_score>
+					<raw_score>0.628785544809751</raw_score>
+					<norm_rank>62</norm_rank>
+					<go_term_definition>symbiosis, encompassing mutualism through parasitism</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046417</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.15</normalized_raw_score>
+					<raw_score>0.628300224224477</raw_score>
+					<norm_rank>63</norm_rank>
+					<go_term_definition>chorismate metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009056</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.15</normalized_raw_score>
+					<raw_score>0.61194880306528</raw_score>
+					<norm_rank>64</norm_rank>
+					<go_term_definition>catabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044260</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.15</normalized_raw_score>
+					<raw_score>0.60705703377825</raw_score>
+					<norm_rank>65</norm_rank>
+					<go_term_definition>cellular macromolecule metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044419</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.14</normalized_raw_score>
+					<raw_score>0.58766837853675</raw_score>
+					<norm_rank>66</norm_rank>
+					<go_term_definition>interspecies interaction between organisms</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044237</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.14</normalized_raw_score>
+					<raw_score>0.574503985679167</raw_score>
+					<norm_rank>67</norm_rank>
+					<go_term_definition>cellular metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0022415</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.14</normalized_raw_score>
+					<raw_score>0.559290331593851</raw_score>
+					<norm_rank>68</norm_rank>
+					<go_term_definition>viral reproductive process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0034654</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.13</normalized_raw_score>
+					<raw_score>0.546028950532175</raw_score>
+					<norm_rank>69</norm_rank>
+					<go_term_definition>nucleobase-containing compound biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006163</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.13</normalized_raw_score>
+					<raw_score>0.532074896259841</raw_score>
+					<norm_rank>70</norm_rank>
+					<go_term_definition>purine nucleotide metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016032</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.13</normalized_raw_score>
+					<raw_score>0.530715954201713</raw_score>
+					<norm_rank>71</norm_rank>
+					<go_term_definition>viral reproduction</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005978</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.13</normalized_raw_score>
+					<raw_score>0.528982174587528</raw_score>
+					<norm_rank>72</norm_rank>
+					<go_term_definition>glycogen biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0007018</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.13</normalized_raw_score>
+					<raw_score>0.528798275933005</raw_score>
+					<norm_rank>73</norm_rank>
+					<go_term_definition>microtubule-based movement</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016042</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.13</normalized_raw_score>
+					<raw_score>0.51721640338319</raw_score>
+					<norm_rank>74</norm_rank>
+					<go_term_definition>lipid catabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009987</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.512312575749843</raw_score>
+					<norm_rank>75</norm_rank>
+					<go_term_definition>cellular process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0080167</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.505935392973501</raw_score>
+					<norm_rank>76</norm_rank>
+					<go_term_definition>response to karrikin</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0080024</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.505935392973501</raw_score>
+					<norm_rank>77</norm_rank>
+					<go_term_definition>indolebutyric acid metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0071475</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.505935392973501</raw_score>
+					<norm_rank>78</norm_rank>
+					<go_term_definition>cellular hyperosmotic salinity response</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0071215</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.505935392973501</raw_score>
+					<norm_rank>79</norm_rank>
+					<go_term_definition>cellular response to abscisic acid stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0070301</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.505935392973501</raw_score>
+					<norm_rank>80</norm_rank>
+					<go_term_definition>cellular response to hydrogen peroxide</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0042631</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.505935392973501</raw_score>
+					<norm_rank>81</norm_rank>
+					<go_term_definition>cellular response to water deprivation</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0010016</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.505935392973501</raw_score>
+					<norm_rank>82</norm_rank>
+					<go_term_definition>shoot morphogenesis</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0040011</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.479011790135395</raw_score>
+					<norm_rank>83</norm_rank>
+					<go_term_definition>locomotion</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0034968</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.11</normalized_raw_score>
+					<raw_score>0.467354279759089</raw_score>
+					<norm_rank>84</norm_rank>
+					<go_term_definition>histone lysine methylation</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006091</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.11</normalized_raw_score>
+					<raw_score>0.465304930999937</raw_score>
+					<norm_rank>85</norm_rank>
+					<go_term_definition>generation of precursor metabolites and energy</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0051056</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.11</normalized_raw_score>
+					<raw_score>0.463531544420414</raw_score>
+					<norm_rank>86</norm_rank>
+					<go_term_definition>regulation of small GTPase mediated signal transduction</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005977</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.11</normalized_raw_score>
+					<raw_score>0.439148008797926</raw_score>
+					<norm_rank>87</norm_rank>
+					<go_term_definition>glycogen metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0072521</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.10</normalized_raw_score>
+					<raw_score>0.422790104165065</raw_score>
+					<norm_rank>88</norm_rank>
+					<go_term_definition>purine-containing compound metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009423</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.10</normalized_raw_score>
+					<raw_score>0.415758762624413</raw_score>
+					<norm_rank>89</norm_rank>
+					<go_term_definition>chorismate biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009073</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.10</normalized_raw_score>
+					<raw_score>0.415758762624413</raw_score>
+					<norm_rank>90</norm_rank>
+					<go_term_definition>aromatic amino acid family biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009117</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.10</normalized_raw_score>
+					<raw_score>0.415361100540212</raw_score>
+					<norm_rank>91</norm_rank>
+					<go_term_definition>nucleotide metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006753</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.10</normalized_raw_score>
+					<raw_score>0.415352487914493</raw_score>
+					<norm_rank>92</norm_rank>
+					<go_term_definition>nucleoside phosphate metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0042542</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.10</normalized_raw_score>
+					<raw_score>0.406212141917241</raw_score>
+					<norm_rank>93</norm_rank>
+					<go_term_definition>response to hydrogen peroxide</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006112</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.10</normalized_raw_score>
+					<raw_score>0.402176036334862</raw_score>
+					<norm_rank>94</norm_rank>
+					<go_term_definition>energy reserve metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0034614</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.10</normalized_raw_score>
+					<raw_score>0.401492966005781</raw_score>
+					<norm_rank>95</norm_rank>
+					<go_term_definition>cellular response to reactive oxygen species</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016571</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.388723583401517</raw_score>
+					<norm_rank>96</norm_rank>
+					<go_term_definition>histone methylation</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009152</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.383552606093564</raw_score>
+					<norm_rank>97</norm_rank>
+					<go_term_definition>purine ribonucleotide biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044281</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.383550273954305</raw_score>
+					<norm_rank>98</norm_rank>
+					<go_term_definition>small molecule metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043412</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.369362711147496</raw_score>
+					<norm_rank>99</norm_rank>
+					<go_term_definition>macromolecule modification</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043650</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.369016653216934</raw_score>
+					<norm_rank>100</norm_rank>
+					<go_term_definition>dicarboxylic acid biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009072</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.366878057820388</raw_score>
+					<norm_rank>101</norm_rank>
+					<go_term_definition>aromatic amino acid family metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006541</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.364606240177032</raw_score>
+					<norm_rank>102</norm_rank>
+					<go_term_definition>glutamine metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006177</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.364606240177032</raw_score>
+					<norm_rank>103</norm_rank>
+					<go_term_definition>GMP biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009250</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.364040670469485</raw_score>
+					<norm_rank>104</norm_rank>
+					<go_term_definition>glucan biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046037</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.357603559507819</raw_score>
+					<norm_rank>105</norm_rank>
+					<go_term_definition>GMP metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043648</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.357051435660314</raw_score>
+					<norm_rank>106</norm_rank>
+					<go_term_definition>dicarboxylic acid metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0055086</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.354911488920132</raw_score>
+					<norm_rank>107</norm_rank>
+					<go_term_definition>nucleobase-containing small molecule metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006220</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.08</normalized_raw_score>
+					<raw_score>0.336118750098018</raw_score>
+					<norm_rank>108</norm_rank>
+					<go_term_definition>pyrimidine nucleotide metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0000302</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.08</normalized_raw_score>
+					<raw_score>0.317505744848388</raw_score>
+					<norm_rank>109</norm_rank>
+					<go_term_definition>response to reactive oxygen species</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0034599</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.08</normalized_raw_score>
+					<raw_score>0.31728151762745</raw_score>
+					<norm_rank>110</norm_rank>
+					<go_term_definition>cellular response to oxidative stress</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0018130</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.08</normalized_raw_score>
+					<raw_score>0.31252630878468</raw_score>
+					<norm_rank>111</norm_rank>
+					<go_term_definition>heterocycle biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0022414</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.309230698043573</raw_score>
+					<norm_rank>112</norm_rank>
+					<go_term_definition>reproductive process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006073</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.30158357230701</raw_score>
+					<norm_rank>113</norm_rank>
+					<go_term_definition>cellular glucan metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0072527</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.301336039759906</raw_score>
+					<norm_rank>114</norm_rank>
+					<go_term_definition>pyrimidine-containing compound metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046364</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.29743233192504</raw_score>
+					<norm_rank>115</norm_rank>
+					<go_term_definition>monosaccharide biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0000003</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.282582270089006</raw_score>
+					<norm_rank>116</norm_rank>
+					<go_term_definition>reproduction</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009260</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.27427714011959</raw_score>
+					<norm_rank>117</norm_rank>
+					<go_term_definition>ribonucleotide biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044271</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.255891105350489</raw_score>
+					<norm_rank>118</norm_rank>
+					<go_term_definition>cellular nitrogen compound biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0007264</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.248719772945236</raw_score>
+					<norm_rank>119</norm_rank>
+					<go_term_definition>small GTPase mediated signal transduction</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046483</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.240820452694217</raw_score>
+					<norm_rank>120</norm_rank>
+					<go_term_definition>heterocycle metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046165</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.237178869196858</raw_score>
+					<norm_rank>121</norm_rank>
+					<go_term_definition>alcohol biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009737</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.236332632545445</raw_score>
+					<norm_rank>122</norm_rank>
+					<go_term_definition>response to abscisic acid stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0048367</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.228710520111309</raw_score>
+					<norm_rank>123</norm_rank>
+					<go_term_definition>shoot development</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0022621</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.06</normalized_raw_score>
+					<raw_score>0.228710520111309</raw_score>
+					<norm_rank>124</norm_rank>
+					<go_term_definition>shoot system development</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044042</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.225833963383993</raw_score>
+					<norm_rank>125</norm_rank>
+					<go_term_definition>glucan metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0051704</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.225093723664226</raw_score>
+					<norm_rank>126</norm_rank>
+					<go_term_definition>multi-organism process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0019538</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.209395370545067</raw_score>
+					<norm_rank>127</norm_rank>
+					<go_term_definition>protein metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0019438</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.19828222669663</raw_score>
+					<norm_rank>128</norm_rank>
+					<go_term_definition>aromatic compound biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044249</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.194950182052945</raw_score>
+					<norm_rank>129</norm_rank>
+					<go_term_definition>cellular biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009150</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.194521054373675</raw_score>
+					<norm_rank>130</norm_rank>
+					<go_term_definition>purine ribonucleotide metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009058</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.193525350979385</raw_score>
+					<norm_rank>131</norm_rank>
+					<go_term_definition>biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0034637</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.178605041961231</raw_score>
+					<norm_rank>132</norm_rank>
+					<go_term_definition>cellular carbohydrate biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0034645</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.172461479767139</raw_score>
+					<norm_rank>133</norm_rank>
+					<go_term_definition>cellular macromolecule biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009059</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.171027872575753</raw_score>
+					<norm_rank>134</norm_rank>
+					<go_term_definition>macromolecule biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009259</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.161481420227494</raw_score>
+					<norm_rank>135</norm_rank>
+					<go_term_definition>ribonucleotide metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006979</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.147446875274194</raw_score>
+					<norm_rank>136</norm_rank>
+					<go_term_definition>response to oxidative stress</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008213</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.134570428380181</raw_score>
+					<norm_rank>137</norm_rank>
+					<go_term_definition>protein alkylation</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006479</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.134570428380181</raw_score>
+					<norm_rank>138</norm_rank>
+					<go_term_definition>protein methylation</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0007017</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.13127895917139</raw_score>
+					<norm_rank>139</norm_rank>
+					<go_term_definition>microtubule-based process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0010035</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.126164175501395</raw_score>
+					<norm_rank>140</norm_rank>
+					<go_term_definition>response to inorganic substance</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009064</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.119214424594921</raw_score>
+					<norm_rank>141</norm_rank>
+					<go_term_definition>glutamine family amino acid metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016570</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.11593028423706</raw_score>
+					<norm_rank>142</norm_rank>
+					<go_term_definition>histone modification</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016569</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.113917605691278</raw_score>
+					<norm_rank>143</norm_rank>
+					<go_term_definition>covalent chromatin modification</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016051</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.111977712322097</raw_score>
+					<norm_rank>144</norm_rank>
+					<go_term_definition>carbohydrate biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009141</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.111920906346476</raw_score>
+					<norm_rank>145</norm_rank>
+					<go_term_definition>nucleoside triphosphate metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006725</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.107562425123074</raw_score>
+					<norm_rank>146</norm_rank>
+					<go_term_definition>cellular aromatic compound metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044283</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.104510320477779</raw_score>
+					<norm_rank>147</norm_rank>
+					<go_term_definition>small molecule biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0046394</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0972180312015306</raw_score>
+					<norm_rank>148</norm_rank>
+					<go_term_definition>carboxylic acid biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016053</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0967024507315731</raw_score>
+					<norm_rank>149</norm_rank>
+					<go_term_definition>organic acid biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009966</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0884686787311534</raw_score>
+					<norm_rank>150</norm_rank>
+					<go_term_definition>regulation of signal transduction</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0008652</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0834371136570925</raw_score>
+					<norm_rank>151</norm_rank>
+					<go_term_definition>cellular amino acid biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009309</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0798052712615722</raw_score>
+					<norm_rank>152</norm_rank>
+					<go_term_definition>amine biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0023051</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.078147882442353</raw_score>
+					<norm_rank>153</norm_rank>
+					<go_term_definition>regulation of signaling</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0033692</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0768495533018597</raw_score>
+					<norm_rank>154</norm_rank>
+					<go_term_definition>cellular polysaccharide biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0035556</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0717313611333677</raw_score>
+					<norm_rank>155</norm_rank>
+					<go_term_definition>intracellular signal transduction</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006928</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0710177379431595</raw_score>
+					<norm_rank>156</norm_rank>
+					<go_term_definition>cellular component movement</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043436</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0703159321315094</raw_score>
+					<norm_rank>157</norm_rank>
+					<go_term_definition>oxoacid metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0019752</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0703159321315094</raw_score>
+					<norm_rank>158</norm_rank>
+					<go_term_definition>carboxylic acid metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006082</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0698772890001475</raw_score>
+					<norm_rank>159</norm_rank>
+					<go_term_definition>organic acid metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009414</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0689199916124892</raw_score>
+					<norm_rank>160</norm_rank>
+					<go_term_definition>response to water deprivation</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0070887</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.068738595654709</raw_score>
+					<norm_rank>161</norm_rank>
+					<go_term_definition>cellular response to chemical stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006520</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0684909346659415</raw_score>
+					<norm_rank>162</norm_rank>
+					<go_term_definition>cellular amino acid metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0042180</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0681319244678375</raw_score>
+					<norm_rank>163</norm_rank>
+					<go_term_definition>cellular ketone metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044264</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.067806470098282</raw_score>
+					<norm_rank>164</norm_rank>
+					<go_term_definition>cellular polysaccharide metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044106</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0663353103361079</raw_score>
+					<norm_rank>165</norm_rank>
+					<go_term_definition>cellular amine metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006260</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.02</normalized_raw_score>
+					<raw_score>0.0659081621730763</raw_score>
+					<norm_rank>166</norm_rank>
+					<go_term_definition>DNA replication</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016568</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0591140007911494</raw_score>
+					<norm_rank>167</norm_rank>
+					<go_term_definition>chromatin modification</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0071472</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0590257958469086</raw_score>
+					<norm_rank>168</norm_rank>
+					<go_term_definition>cellular response to salt stress</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009415</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0588919505048517</raw_score>
+					<norm_rank>169</norm_rank>
+					<go_term_definition>response to water stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009308</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0566960013618499</raw_score>
+					<norm_rank>170</norm_rank>
+					<go_term_definition>amine metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0048583</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0561017040473156</raw_score>
+					<norm_rank>171</norm_rank>
+					<go_term_definition>regulation of response to stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0015980</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0535408891629916</raw_score>
+					<norm_rank>172</norm_rank>
+					<go_term_definition>energy derivation by oxidation of organic compounds</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006629</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0491108088031327</raw_score>
+					<norm_rank>173</norm_rank>
+					<go_term_definition>lipid metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009168</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0452215641152211</raw_score>
+					<norm_rank>174</norm_rank>
+					<go_term_definition>purine ribonucleoside monophosphate biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009127</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0451922944944347</raw_score>
+					<norm_rank>175</norm_rank>
+					<go_term_definition>purine nucleoside monophosphate biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009167</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0449233360102311</raw_score>
+					<norm_rank>176</norm_rank>
+					<go_term_definition>purine ribonucleoside monophosphate metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009126</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0448800224932678</raw_score>
+					<norm_rank>177</norm_rank>
+					<go_term_definition>purine nucleoside monophosphate metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0042538</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0442693468851813</raw_score>
+					<norm_rank>178</norm_rank>
+					<go_term_definition>hyperosmotic salinity response</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0032870</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0441996144836901</raw_score>
+					<norm_rank>179</norm_rank>
+					<go_term_definition>cellular response to hormone stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006325</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0416877642173927</raw_score>
+					<norm_rank>180</norm_rank>
+					<go_term_definition>chromatin organization</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006813</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0400951486635277</raw_score>
+					<norm_rank>181</norm_rank>
+					<go_term_definition>potassium ion transport</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0000271</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0384153414694318</raw_score>
+					<norm_rank>182</norm_rank>
+					<go_term_definition>polysaccharide biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0071495</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0377071964372435</raw_score>
+					<norm_rank>183</norm_rank>
+					<go_term_definition>cellular response to endogenous stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005976</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.032057062268175</raw_score>
+					<norm_rank>184</norm_rank>
+					<go_term_definition>polysaccharide metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0071474</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0297609054690295</raw_score>
+					<norm_rank>185</norm_rank>
+					<go_term_definition>cellular hyperosmotic response</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0007165</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0277024709670792</raw_score>
+					<norm_rank>186</norm_rank>
+					<go_term_definition>signal transduction</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009725</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0274776406413238</raw_score>
+					<norm_rank>187</norm_rank>
+					<go_term_definition>response to hormone stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0042221</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0271902940828262</raw_score>
+					<norm_rank>188</norm_rank>
+					<go_term_definition>response to chemical stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009156</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0269427339355206</raw_score>
+					<norm_rank>189</norm_rank>
+					<go_term_definition>ribonucleoside monophosphate biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0051716</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0267449109261639</raw_score>
+					<norm_rank>190</norm_rank>
+					<go_term_definition>cellular response to stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009161</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0266700133666545</raw_score>
+					<norm_rank>191</norm_rank>
+					<go_term_definition>ribonucleoside monophosphate metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0051276</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0266084918402985</raw_score>
+					<norm_rank>192</norm_rank>
+					<go_term_definition>chromosome organization</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0023052</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0254898207147749</raw_score>
+					<norm_rank>193</norm_rank>
+					<go_term_definition>signaling</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043414</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0225176873295045</raw_score>
+					<norm_rank>194</norm_rank>
+					<go_term_definition>macromolecule methylation</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009719</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0219693699309741</raw_score>
+					<norm_rank>195</norm_rank>
+					<go_term_definition>response to endogenous stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009124</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0219049709784789</raw_score>
+					<norm_rank>196</norm_rank>
+					<go_term_definition>nucleoside monophosphate biosynthetic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0033554</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0214460696100631</raw_score>
+					<norm_rank>197</norm_rank>
+					<go_term_definition>cellular response to stress</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009123</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0213555880085339</raw_score>
+					<norm_rank>198</norm_rank>
+					<go_term_definition>nucleoside monophosphate metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0007154</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0211130243806314</raw_score>
+					<norm_rank>199</norm_rank>
+					<go_term_definition>cell communication</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0071310</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0201981959210351</raw_score>
+					<norm_rank>200</norm_rank>
+					<go_term_definition>cellular response to organic substance</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009850</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0194590535759039</raw_score>
+					<norm_rank>201</norm_rank>
+					<go_term_definition>auxin metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0032259</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0192220942342911</raw_score>
+					<norm_rank>202</norm_rank>
+					<go_term_definition>methylation</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0050896</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0175292612418275</raw_score>
+					<norm_rank>203</norm_rank>
+					<go_term_definition>response to stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009628</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0143797383824549</raw_score>
+					<norm_rank>204</norm_rank>
+					<go_term_definition>response to abiotic stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0071470</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.013780341442858</raw_score>
+					<norm_rank>205</norm_rank>
+					<go_term_definition>cellular response to osmotic stress</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006972</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0131168435215352</raw_score>
+					<norm_rank>206</norm_rank>
+					<go_term_definition>hyperosmotic response</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006730</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0130699826464377</raw_score>
+					<norm_rank>207</norm_rank>
+					<go_term_definition>one-carbon metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0030001</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0128742541080462</raw_score>
+					<norm_rank>208</norm_rank>
+					<go_term_definition>metal ion transport</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0055114</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0122021236723612</raw_score>
+					<norm_rank>209</norm_rank>
+					<go_term_definition>oxidation-reduction process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0010033</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0121897884155019</raw_score>
+					<norm_rank>210</norm_rank>
+					<go_term_definition>response to organic substance</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006950</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0106564082008505</raw_score>
+					<norm_rank>211</norm_rank>
+					<go_term_definition>response to stress</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006996</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00996424419579906</raw_score>
+					<norm_rank>212</norm_rank>
+					<go_term_definition>organelle organization</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0050794</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0084112795295459</raw_score>
+					<norm_rank>213</norm_rank>
+					<go_term_definition>regulation of cellular process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0050789</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00786540671458138</raw_score>
+					<norm_rank>214</norm_rank>
+					<go_term_definition>regulation of biological process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0065007</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00741773951457505</raw_score>
+					<norm_rank>215</norm_rank>
+					<go_term_definition>biological regulation</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0015672</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00685309649208598</raw_score>
+					<norm_rank>216</norm_rank>
+					<go_term_definition>monovalent inorganic cation transport</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0048513</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00644503685316561</raw_score>
+					<norm_rank>217</norm_rank>
+					<go_term_definition>organ development</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006464</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00619936329675525</raw_score>
+					<norm_rank>218</norm_rank>
+					<go_term_definition>cellular protein modification process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009651</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00571217379163632</raw_score>
+					<norm_rank>219</norm_rank>
+					<go_term_definition>response to salt stress</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006812</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00548708670107519</raw_score>
+					<norm_rank>220</norm_rank>
+					<go_term_definition>cation transport</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0071842</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00547114538890173</raw_score>
+					<norm_rank>221</norm_rank>
+					<go_term_definition>cellular component organization at cellular level</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0048731</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00474381814693153</raw_score>
+					<norm_rank>222</norm_rank>
+					<go_term_definition>system development</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006811</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00444847601573115</raw_score>
+					<norm_rank>223</norm_rank>
+					<go_term_definition>ion transport</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009653</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00384431682434389</raw_score>
+					<norm_rank>224</norm_rank>
+					<go_term_definition>anatomical structure morphogenesis</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0071214</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00379180701372003</raw_score>
+					<norm_rank>225</norm_rank>
+					<go_term_definition>cellular response to abiotic stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016043</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.003724995508321</raw_score>
+					<norm_rank>226</norm_rank>
+					<go_term_definition>cellular component organization</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0031668</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00355836913216657</raw_score>
+					<norm_rank>227</norm_rank>
+					<go_term_definition>cellular response to extracellular stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0071496</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00347017260963898</raw_score>
+					<norm_rank>228</norm_rank>
+					<go_term_definition>cellular response to external stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006970</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00342841021376041</raw_score>
+					<norm_rank>229</norm_rank>
+					<go_term_definition>response to osmotic stress</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0007275</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00337938831456847</raw_score>
+					<norm_rank>230</norm_rank>
+					<go_term_definition>multicellular organismal development</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0071841</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00307044046335942</raw_score>
+					<norm_rank>231</norm_rank>
+					<go_term_definition>cellular component organization or biogenesis at cellular level</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009991</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0030629000124978</raw_score>
+					<norm_rank>232</norm_rank>
+					<go_term_definition>response to extracellular stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0071840</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00266115134233311</raw_score>
+					<norm_rank>233</norm_rank>
+					<go_term_definition>cellular component organization or biogenesis</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0048856</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00258981160555715</raw_score>
+					<norm_rank>234</norm_rank>
+					<go_term_definition>anatomical structure development</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0032501</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00246097475301257</raw_score>
+					<norm_rank>235</norm_rank>
+					<go_term_definition>multicellular organismal process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0032502</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00212415623004142</raw_score>
+					<norm_rank>236</norm_rank>
+					<go_term_definition>developmental process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009605</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00187509748069694</raw_score>
+					<norm_rank>237</norm_rank>
+					<go_term_definition>response to external stimulus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0042445</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.001850983145025</raw_score>
+					<norm_rank>238</norm_rank>
+					<go_term_definition>hormone metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0006810</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00154366431782581</raw_score>
+					<norm_rank>239</norm_rank>
+					<go_term_definition>transport</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0051234</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00153409038355317</raw_score>
+					<norm_rank>240</norm_rank>
+					<go_term_definition>establishment of localization</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0051179</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00142020011336019</raw_score>
+					<norm_rank>241</norm_rank>
+					<go_term_definition>localization</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044267</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.00141375958524752</raw_score>
+					<norm_rank>242</norm_rank>
+					<go_term_definition>cellular protein metabolic process</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0010817</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.000943909315249066</raw_score>
+					<norm_rank>243</norm_rank>
+					<go_term_definition>regulation of hormone levels</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0065008</GO_TERM>
+					<category>p</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>5.59724961802746e-05</raw_score>
+					<norm_rank>244</norm_rank>
+					<go_term_definition>regulation of biological quality</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005737</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>1.00</normalized_raw_score>
+					<raw_score>4.99074536548121</raw_score>
+					<norm_rank>1</norm_rank>
+					<go_term_definition>cytoplasm</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044424</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.93</normalized_raw_score>
+					<raw_score>4.62569651358227</raw_score>
+					<norm_rank>2</norm_rank>
+					<go_term_definition>intracellular part</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005622</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.92</normalized_raw_score>
+					<raw_score>4.59030461092573</raw_score>
+					<norm_rank>3</norm_rank>
+					<go_term_definition>intracellular</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044464</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.89</normalized_raw_score>
+					<raw_score>4.46492219023244</raw_score>
+					<norm_rank>4</norm_rank>
+					<go_term_definition>cell part</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005623</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.89</normalized_raw_score>
+					<raw_score>4.46483944190946</raw_score>
+					<norm_rank>5</norm_rank>
+					<go_term_definition>cell</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005575</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.88</normalized_raw_score>
+					<raw_score>4.39147063660659</raw_score>
+					<norm_rank>6</norm_rank>
+					<go_term_definition>cellular_component</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005576</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.46</normalized_raw_score>
+					<raw_score>2.30826606081963</raw_score>
+					<norm_rank>7</norm_rank>
+					<go_term_definition>extracellular region</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016020</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.44</normalized_raw_score>
+					<raw_score>2.20763334003164</raw_score>
+					<norm_rank>8</norm_rank>
+					<go_term_definition>membrane</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009507</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.40</normalized_raw_score>
+					<raw_score>1.9722974051266</raw_score>
+					<norm_rank>9</norm_rank>
+					<go_term_definition>chloroplast</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0009536</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.36</normalized_raw_score>
+					<raw_score>1.81327031717339</raw_score>
+					<norm_rank>10</norm_rank>
+					<go_term_definition>plastid</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0016021</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.34</normalized_raw_score>
+					<raw_score>1.69251590471695</raw_score>
+					<norm_rank>11</norm_rank>
+					<go_term_definition>integral to membrane</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005886</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.34</normalized_raw_score>
+					<raw_score>1.69251590471695</raw_score>
+					<norm_rank>12</norm_rank>
+					<go_term_definition>plasma membrane</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0031224</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.33</normalized_raw_score>
+					<raw_score>1.66924279748546</raw_score>
+					<norm_rank>13</norm_rank>
+					<go_term_definition>intrinsic to membrane</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0071944</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.32</normalized_raw_score>
+					<raw_score>1.61141679440322</raw_score>
+					<norm_rank>14</norm_rank>
+					<go_term_definition>cell periphery</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044425</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.28</normalized_raw_score>
+					<raw_score>1.40607962850312</raw_score>
+					<norm_rank>15</norm_rank>
+					<go_term_definition>membrane part</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0030430</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.28</normalized_raw_score>
+					<raw_score>1.3952478919752</raw_score>
+					<norm_rank>16</norm_rank>
+					<go_term_definition>host cell cytoplasm</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043231</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.21</normalized_raw_score>
+					<raw_score>1.02573062748595</raw_score>
+					<norm_rank>17</norm_rank>
+					<go_term_definition>intracellular membrane-bounded organelle</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043227</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.21</normalized_raw_score>
+					<raw_score>1.02422342215096</raw_score>
+					<norm_rank>18</norm_rank>
+					<go_term_definition>membrane-bounded organelle</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005634</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.19</normalized_raw_score>
+					<raw_score>0.930885824179502</raw_score>
+					<norm_rank>19</norm_rank>
+					<go_term_definition>nucleus</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043656</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.18</normalized_raw_score>
+					<raw_score>0.907637954220386</raw_score>
+					<norm_rank>20</norm_rank>
+					<go_term_definition>intracellular region of host</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0033646</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.18</normalized_raw_score>
+					<raw_score>0.907637954220386</raw_score>
+					<norm_rank>21</norm_rank>
+					<go_term_definition>host intracellular part</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044444</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.16</normalized_raw_score>
+					<raw_score>0.80794949169431</raw_score>
+					<norm_rank>22</norm_rank>
+					<go_term_definition>cytoplasmic part</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043229</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.16</normalized_raw_score>
+					<raw_score>0.801050510405452</raw_score>
+					<norm_rank>23</norm_rank>
+					<go_term_definition>intracellular organelle</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043226</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.16</normalized_raw_score>
+					<raw_score>0.800287372033414</raw_score>
+					<norm_rank>24</norm_rank>
+					<go_term_definition>organelle</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0033643</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.13</normalized_raw_score>
+					<raw_score>0.662179923661786</raw_score>
+					<norm_rank>25</norm_rank>
+					<go_term_definition>host cell part</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043657</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.13</normalized_raw_score>
+					<raw_score>0.659453817734361</raw_score>
+					<norm_rank>26</norm_rank>
+					<go_term_definition>host cell</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0018995</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.13</normalized_raw_score>
+					<raw_score>0.658142776347215</raw_score>
+					<norm_rank>27</norm_rank>
+					<go_term_definition>host</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044217</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.58744673459597</raw_score>
+					<norm_rank>28</norm_rank>
+					<go_term_definition>other organism part</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044216</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.58744673459597</raw_score>
+					<norm_rank>29</norm_rank>
+					<go_term_definition>other organism cell</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044215</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.586406146379278</raw_score>
+					<norm_rank>30</norm_rank>
+					<go_term_definition>other organism</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043245</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.12</normalized_raw_score>
+					<raw_score>0.586060102388732</raw_score>
+					<norm_rank>31</norm_rank>
+					<go_term_definition>extraorganismal space</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043025</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.11</normalized_raw_score>
+					<raw_score>0.528798275933005</raw_score>
+					<norm_rank>32</norm_rank>
+					<go_term_definition>neuronal cell body</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043005</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.11</normalized_raw_score>
+					<raw_score>0.528798275933005</raw_score>
+					<norm_rank>33</norm_rank>
+					<go_term_definition>neuron projection</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005875</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.11</normalized_raw_score>
+					<raw_score>0.528798275933005</raw_score>
+					<norm_rank>34</norm_rank>
+					<go_term_definition>microtubule associated complex</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005874</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.11</normalized_raw_score>
+					<raw_score>0.528798275933005</raw_score>
+					<norm_rank>35</norm_rank>
+					<go_term_definition>microtubule</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044297</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.10</normalized_raw_score>
+					<raw_score>0.477996694839005</raw_score>
+					<norm_rank>36</norm_rank>
+					<go_term_definition>cell body</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005694</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.467354279759089</raw_score>
+					<norm_rank>37</norm_rank>
+					<go_term_definition>chromosome</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005829</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.09</normalized_raw_score>
+					<raw_score>0.463531544420414</raw_score>
+					<norm_rank>38</norm_rank>
+					<go_term_definition>cytosol</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0015630</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.355553672568625</raw_score>
+					<norm_rank>39</norm_rank>
+					<go_term_definition>microtubule cytoskeleton</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044421</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.07</normalized_raw_score>
+					<raw_score>0.336862305646817</raw_score>
+					<norm_rank>40</norm_rank>
+					<go_term_definition>extracellular region part</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044430</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.05</normalized_raw_score>
+					<raw_score>0.244997636184522</raw_score>
+					<norm_rank>41</norm_rank>
+					<go_term_definition>cytoskeletal part</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0042995</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.04</normalized_raw_score>
+					<raw_score>0.215439397686187</raw_score>
+					<norm_rank>42</norm_rank>
+					<go_term_definition>cell projection</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0005856</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.03</normalized_raw_score>
+					<raw_score>0.165853972001776</raw_score>
+					<norm_rank>43</norm_rank>
+					<go_term_definition>cytoskeleton</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043232</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0628088783712424</raw_score>
+					<norm_rank>44</norm_rank>
+					<go_term_definition>intracellular non-membrane-bounded organelle</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043228</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0627994776356438</raw_score>
+					<norm_rank>45</norm_rank>
+					<go_term_definition>non-membrane-bounded organelle</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0043234</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.01</normalized_raw_score>
+					<raw_score>0.0267882117699498</raw_score>
+					<norm_rank>46</norm_rank>
+					<go_term_definition>protein complex</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044446</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0158036647004045</raw_score>
+					<norm_rank>47</norm_rank>
+					<go_term_definition>intracellular organelle part</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0044422</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0155951335007262</raw_score>
+					<norm_rank>48</norm_rank>
+					<go_term_definition>organelle part</go_term_definition>
+				</prediction>
+				<prediction>
+					<GO_TERM>GO:0032991</GO_TERM>
+					<category>c</category>
+					<normalized_raw_score>0.00</normalized_raw_score>
+					<raw_score>0.0141515558975393</raw_score>
+					<norm_rank>49</norm_rank>
+					<go_term_definition>macromolecular complex</go_term_definition>
+				</prediction>
+			</results>
+		</sequence>
+	</sequences>
+</PFP_Job>

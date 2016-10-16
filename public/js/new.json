@@ -1,0 +1,13 @@
+{ 
+  "nodes": [ 
+    { "name": "all", "group": 1 },
+    { "name": "GO:0008150", "group": 1 },
+    { "name": "GO:0005575", "group": 1 },
+    { "name": "GO:0003674", "group": 1 }
+  ],
+  "links": [ 
+    { "source": 0, "target": 1, "value" : 1 },
+    { "source": 0, "target": 2, "value" : 1 },
+    { "source": 0, "target": 3, "value" : 1 }
+  ] 
+}

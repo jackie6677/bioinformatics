@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>VivaGraphs WebGL Mouse Input test page</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+   		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/smoothness/jquery-ui.css" />
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+        <script language="javascript" type="text/javascript" src="js/rainbow.js"></script>
+
+	    <style>
+	    body{
+	    background-color:#fefefe
+	    }
+	    #header {
+		background: #333;
+		height: 35px;
+		-webkit-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+		-moz-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+		box-shadow: 0 2px 3px rgba(0,0,0,.25);
+		text-align: center;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		
+		color: white;
+		}
+		#search-txt{
+		border-radius:5px;
+		height:25px;
+		margin-top:5px;
+		}
+		#settings {
+		display:block;
+		position: absolute;
+		width: 200px;
+		right: 20px;
+		top: 58px;
+		overflow-y: auto;
+		}
+		#settings > label {
+		clear: both;
+		float: left;
+		margin-top: 6px;
+		margin-right: 10px;
+		width: 107px;
+		}
+		.settings-box {
+		
+		width: 100%;
+		float: left;
+		}
+	
+	    </style>
+	    <script src="js/dist/vivagraph.js"></script>
+	    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+ 		
+        <script type='text/javascript'>
+        
+        function settingsMonitor(layout, inputsCollection, renderer) {
+   	 	var fields = {},
+        fieldIds = [],
+        i,
+        defaults = {},
+
+        valueChanged = function() {
+            var newValue = parseFloat(this.value);
+            if (!isNaN(newValue)) {
+                layout[this.id](newValue);
+                renderer.resume();
+            }
+        };
+
+    for(i = 0; i < inputsCollection.length; ++i) {
+        if (layout.hasOwnProperty(inputsCollection[i].id)) {
+            var id = inputsCollection[i].id;
+            fieldIds.push(id);
+            fields[id] = $(inputsCollection[i]);
+        } else {
+            console.log('Unknown layout parameter: ' + inputsCollection[i].id);
+        }
+    }
+
+    for(i = 0; i < fieldIds.length; ++i) {
+        var name =fieldIds[i],
+            defaultValue = layout[name]();
+        defaults[name] = defaultValue;
+        fields[name].val(defaultValue).change(valueChanged);
+    }
+
+    return {
+        updateToDefault : function() {
+            for(var k in defaults) {
+                if (defaults.hasOwnProperty(k)) {
+                    fields[k].val(defaults[k]);
+                    layout[k](defaults[k]);
+                }
+            }
+            renderer.resume();
+        }
+    };
+}
+        
+        
+        
+        
+            /*global Viva*/
+            var graph;
+            var graphics;
+            var layout;
+            var renderer;
+            var arrayNodes = new Array();
+            var hash = {};
+             function main () {
+            // This demo shows how to create an SVG node which is a bit more complex
+            // than single image. Do accomplish this we use 'g' element and
+            // compose group of elements to represent a node.
+            
+            graph = Viva.Graph.graph();
+
+            graphics = Viva.Graph.View.svgGraphics(),
+                nodeSize = 24;
+		    
+		    clickNodes = function(nodeId){
+		      var nodeUI = graphics.getNodeUI(nodeId);
+		      //console.log(nodeUI.childNodes[0].attr('fill'));
+              var node = graph.getNode(nodeId);
+              
+              //layout.pinNode(node,true);
+              console.log(node);
+		      if(nodeUI.childNodes[0].attr('fill') != "#FFB300"){
+		      nodeUI.childNodes[0].attr('fill',"#FFB300");
+		      nodeUI.childNodes[1].attr('fill', "#555"); 
+		      $.getJSON("http://dragon.bio.purdue.edu:4567/get_children/" + nodeId + "", function(json){
+                //console.log(json);
+                for(var i = 0; i< Object.keys(json).length; i++){
+                	if(nodeId == 'all'){
+                	 if(json[i].id=='GO:0008150' || json[i].id=='GO:0005575' || json[i].id=='GO:0003674'){
+                	  graph.addNode(json[i].id,json[i].name);
+	  				  graph.addLink(nodeId, json[i].id);
+                	 }
+
+                	}
+                	else{
+          			graph.addNode(json[i].id,json[i].name);
+	  				graph.addLink(nodeId, json[i].id);
+					getResults(json[i].id);
+	  		}
+	  				var curNode = new String(json[i].id);
+			
+	
+				//getResults(json[i].id);
+				//$.getJSON("http://dragon.bio.purdue.edu:4567/get_parent/" + json[i].id + "", function(pjson){
+              			//console.log("kkk");
+              			//for(var j = 0; j< Object.keys(pjson).length; j++){
+          			//		console.log(pjson[j].id+" "+json[i].id);
+          					
+          			//		graph.forEachNode(function(node){
+                      		// if(node.id == pjson[j].id){
+                      		 	//graph.addNode(pjson[j].id, pjson[j].name);
+	  			//		    	graph.addLink(pjson[j].id, json[i].id);
+	  					    	
+                      		 //}
+                      		 
+                  		   // });
+          					
+	  					
+	  			//		}
+				//	});
+				}
+				
+				
+				
+              });
+
+	      } else{  
+	                var nodeUI = graphics.getNodeUI(nodeId);
+			nodeUI.childNodes[0].attr('fill','#00a2e8');
+			nodeUI.childNodes[1].attr('fill','#aaa');
+	                $.getJSON("http://dragon.bio.purdue.edu:4567/get_children/"+nodeId+"",function(json){
+			for(var z=0;z<Object.keys(json).length;z++){
+	                 graph.removeNode(json[z].id);												                              }										                                
+																		                          });
+																									                     											                          }
+		    };
+		    
+		   function getResults(Node){
+		      //console.log(Node);
+		      $.getJSON("http://dragon.bio.purdue.edu:4567/get_parent/"+Node+"", function(pjson){
+		          for(var j=0; j<Object.keys(pjson).length;j++){
+			      graph.forEachNode(function(node){
+			          if(node.id == pjson[j].id){
+				      graph.addLink(pjson[j].id,Node);
+				  }
+			      });
+			  }
+		      }); 
+		   
+		   }
+		    
+		    highlightRelatedNodes = function(nodeId, isOn) {
+                   // just enumerate all realted nodes and update link color:
+                   var nodeUI = graphics.getNodeUI(nodeId);
+                  nodeUI.childNodes[0].attr('r',isOn ? '12':"10");
+                  
+		  if(nodeUI.childNodes[0].attr('fill') != "#FFB300") 
+                  nodeUI.childNodes[1].attr('fill',isOn ? '#555':"#aaa");
+                  //nodeUI.childNodes[1].attr('y',isOn ? '-6':"-4");
+                 
+                 // nodeUI.childNodes[1].attr('stroke',isOn ? '#222':"#222");
+                 // nodeUI.childNodes[1].attr('stroke-width',isOn ? '1':"0");
+                  
+                  
+                  nodeUI.parentNode.appendChild(nodeUI);
+                  
+                   
+                   //console.log(nodeUI);   
+                   graph.forEachLinkedNode(nodeId, function(node, link){
+                       var linkUI = graphics.getLinkUI(link.id);
+                       if (linkUI) {
+                           // linkUI is a UI object created by graphics below
+                           linkUI.attr('stroke', isOn ? 'red' : 'gray');
+			   var nodeUI = graphics.getNodeUI(node.id);
+			   //nodeUI.childNodes[1].attr('fill', isOn ? '#777':'#ddd');
+			   nodeUI.childNodes[0].attr('r', isOn ? '12':'10');
+                       }
+                   });
+                };
+                
+			var root = graph.addNode('all', 'root');
+			root.isPinned = true;
+            //graph.addNode('GO:0008150', "biological_process");
+            
+            //graph.addNode('GO:0005575', "cellular_component");
+            //graph.addNode('GO:0003674', "molecular_function");
+            //graph.addLink('root', 'GO:0008150');
+            //graph.addLink('root', 'GO:0005575');
+            //graph.addLink('root', 'GO:0003674');
+
+            graphics.node(function(node) {
+              // This time it's a group of elements: http://www.w3.org/TR/SVG/struct.html#Groups
+              var ui = Viva.Graph.svg('g'),
+                  // Create SVG text element with user id as content
+                  svgText = Viva.Graph.svg('text').attr('font-family', 'Arial').attr('y', '-4').attr('x', -node.data.length/2 * 5).attr('fill','#aaa').text(node.data),
+                  img = Viva.Graph.svg('circle')
+                     .attr('r', '12')
+                     .attr('fill','#00a2e8')
+                     .attr('cy', nodeSize/2)
+                     .attr('cx', nodeSize/2)
+              
+              
+              ui.append(img);
+              ui.append(svgText);
+               $(ui).hover(function() { // mouse over
+                    $("#go-id").val(node.id);
+                    $("#go-name").val(node.data);
+                    highlightRelatedNodes(node.id, true);
+                    document.body.style.cursor = 'pointer';
+                }, function() { // mouse out
+                    highlightRelatedNodes(node.id, false);
+                    document.body.style.cursor = 'default';
+                });
+                
+                $(ui).dblclick(function() { // mouse over
+                    clickNodes(node.id);
+                });
+                 
+              return ui;
+            }).placeNode(function(nodeUI, pos) {
+                // 'g' element doesn't have convenient (x,y) attributes, instead
+                // we have to deal with transforms: http://www.w3.org/TR/SVG/coords.html#SVGGlobalTransformAttribute
+                nodeUI.attr('transform',
+                            'translate(' +
+                                  (pos.x - nodeSize/2) + ',' + (pos.y - nodeSize/2) +
+                            ')');
+            });
+            
+            
+
+            // Render the graph
+            
+            layout = Viva.Graph.Layout.forceDirected(graph, {
+    		springLength : 150,
+    		springCoeff : 0.0008,
+  			dragCoeff : 0.02,
+		    gravity : -80,
+		    theta: 0.8
+			});
+            renderer = Viva.Graph.View.renderer(graph, {
+                    graphics : graphics,
+                    layout:layout
+                });
+            renderer.run();
+            var settings = $('#settings');
+            var monitor = settingsMonitor(layout, $('input', settings), renderer);
+            // To render an arrow we have to address two problems:
+            //  1. Links should start/stop at node's bounding box, not at the node center.
+            //  2. Render an arrow shape at the end of the link.
+
+            // Rendering arrow shape is achieved by using SVG markers, part of the SVG
+            // standard: http://www.w3.org/TR/SVG/painting.html#Markers
+            var createMarker = function(id) {
+                    return Viva.Graph.svg('marker')
+                               .attr('id', id)
+                               .attr('viewBox', "0 0 10 10")
+                               .attr('refX', "10")
+                               .attr('refY', "5")
+                               .attr('markerUnits', "strokeWidth")
+                               .attr('markerWidth', "20")
+                               .attr('markerHeight', "10")
+                               .attr('orient', "auto");
+                },
+
+                marker = createMarker('Triangle');
+            marker.append('path').attr('d', 'M 0 0 L 10 5 L 0 10 z');
+
+            // Marker should be defined only once in <defs> child element of root <svg> element:
+            var defs = graphics.getSvgRoot().append('defs');
+            defs.append(marker);
+
+            var geom = Viva.Graph.geom();
+
+            graphics.link(function(link){
+                // Notice the Triangle marker-end attribe:
+                return Viva.Graph.svg('path')
+                           .attr('stroke', 'gray')
+                           .attr('marker-end', 'url(#Triangle)');
+            }).placeLink(function(linkUI, fromPos, toPos) {
+                // Here we should take care about
+                //  "Links should start/stop at node's bounding box, not at the node center."
+
+                // For rectangular nodes Viva.Graph.geom() provides efficient way to find
+                // an intersection point between segment and rectangle
+                var toNodeSize = nodeSize,
+                    fromNodeSize = nodeSize;
+
+                var from = geom.intersectRect(
+                        // rectangle:
+                                fromPos.x - fromNodeSize / 2, // left
+                                fromPos.y - fromNodeSize / 2, // top
+                                fromPos.x + fromNodeSize / 2, // right
+                                fromPos.y + fromNodeSize / 2, // bottom
+                        // segment:
+                                fromPos.x, fromPos.y, toPos.x, toPos.y)
+                           || fromPos; // if no intersection found - return center of the node
+
+                var to = geom.intersectRect(
+                        // rectangle:
+                                toPos.x - toNodeSize / 2, // left
+                                toPos.y - toNodeSize / 2, // top
+                                toPos.x + toNodeSize / 2, // right
+                                toPos.y + toNodeSize / 2, // bottom
+                        // segment:
+                                toPos.x, toPos.y, fromPos.x, fromPos.y)
+                            || toPos; // if no intersection found - return center of the node
+
+                var data = 'M' + from.x + ',' + from.y +
+                           'L' + to.x + ',' + to.y;
+
+                linkUI.attr("d", data);
+            });
+
+            
+        }
+        
+       
+    </script>
+
+    <style type="text/css" media="screen">
+        html, body, svg { width: 100%; height: 100%;}
+    </style>
+</head>
+<body onload='main()'>
+	
+          
+<div id='header' >
+  <form id="match-form">
+   <center>
+    <input type="text" class="" id="search-txt" placeholder="Search">
+    <button class="btn btn-default btn-xs" id="match-btn">Match</button>
+     </center>
+  </form>
+</div>
+<div id="settings">
+  <h3>Information</h3>
+   <p>
+  <label for="amount">Nodes Gravity:</label>
+  <input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;">
+  </p>
+ 
+  <div id="slider-range-min"></div>
+   
+  <label for="amount">Edge Length:</label>
+  <input type="text" id="amount2" style="border:0; color:#f6931f; font-weight:bold;"></p>
+ 
+  <div id="slider-length-min"></div>
+  
+  <label for="amount">Node Size:</label>
+  <input type="text" id="amount3" style="border:0; color:#f6931f; font-weight:bold;"></p>
+ 
+  <div id="slider-size-min"></div>
+  
+  <label>
+  <i style="margin-top:3px" class="glyphicon glyphicon-info-sign"></i>
+  go_term id:
+  </label>
+  <input type="text" class="form-control settings-box" id="go-id">
+  <label>
+  
+  <i style="margin-top:3px" class="glyphicon glyphicon-info-sign"></i>
+  name:
+  </label>
+  <input type="text" class="form-control settings-box" id="go-name">
+  
+  <label>
+  Test Upload:
+  </label>
+  <textarea style="margin-top:10px" class="form-control" id="submit-txt"></textarea>
+  
+  <button style="margin-top:10px" class="btn btn-default" id="submit-btn">Submit</button>
+  <button style="margin-top:10px" class="btn btn-default btn-primary" id="match-path-btn">Path Only</button>
+  
+  <br>
+  <button style="margin-top:10px" class="btn btn-default" id="reset-btn">Reset All</button>
+	<br>
+</div>
+</body>
+<script>
+        function match(term){
+        var myjson = [];
+       		var g_term = term;
+      		$.getJSON("http://dragon.bio.purdue.edu:4567/get_path/"+g_term+"",function(json){
+        		var myjson = [];
+				for(var i = 0; i< Object.keys(json).length; i++){
+					if(hash[json[i].id] == undefined){
+						hash[json[i].id] = 0;
+					}
+					else hash[json[i].id]++;
+					//console.log(hash[json[i].id]);
+                    
+          			var tmpid;
+	  				if(i!=0)tmpid = json[i].id.split(":");
+	  				else tmpid = "all";
+	  	  
+	  
+	  				myjson.push(json[i].id);
+	  				//console.log(tmpid);
+	  				//$("#GO\\:"+tmpid[1]).trigger('click');	  
+				}
+			
+        		//console.log(myjson);
+        //clickNodes("all");		
+      	var myVar = setInterval(function(){
+      	
+      	//console.log(myjson);
+		var tmp = -1;
+		for(var i = 0;i<myjson.length;i++){
+		
+		   graph.forEachNode(function(node){
+		        //console.log(node.id+" "+myjson[i]);
+                if(node.id == myjson[i]){
+                   var nodeUI = graphics.getNodeUI(node.id);
+		             
+		           if(nodeUI.childNodes[0].attr('fill') != "#FFB300"){
+                     if(myjson.length != 1){
+                      clickNodes(myjson[i]);
+		    	      tmp = i;}
+		    	      else{
+		    	        tmp = i;
+		    	        clickNodes(myjson[i]);
+		    	        //nodeUI.childNodes[0].attr('stroke','#555').attr('stroke-width','3');
+		    	      }
+		    	   
+		    	   }
+		    	   
+		    	   
+		    	   else tmp = i;
+		           //break;
+		           
+		            
+		    		//if(nodeUI.childNodes[0].attr('fill')=='#FFB300')nodeUI.childNodes[0].attr('fill',"#FCB6B6");
+		    		//else nodeUI.childNodes[0].attr('fill', newHex);
+                }	 
+           });
+           
+           if(tmp != -1)break;
+		  //if($("#GO\\:"+myjson[i][1]).length){
+		    
+		    
+
+		  //}
+		 
+		}
+		if(tmp!=-1)myjson.splice(tmp,1);
+		if(myjson.length > 0 ){}
+		else{
+		  
+		
+		  clearInterval(myVar);
+		  
+		}
+		}, 100);
+
+      		}); 
+      
+     	
+        
+        }
+        
+        
+        function get_hex(number){
+        		var numberOfItems = number;
+				var rainbow = new Rainbow(); 
+				rainbow.setNumberRange(1, numberOfItems);
+				rainbow.setSpectrum('red', '#FFCCCC');
+				var s = new Array;
+				for (var i = 1; i <= numberOfItems; i++) {
+    				var hexColour = rainbow.colourAt(i);
+    				s.push('#' + hexColour);
+    				//s += '#' + hexColour + ', ';
+				}
+				return s;
+        }
+        
+        setInterval(function(){
+          
+          var keys = Object.keys(hash);
+		  var max = 0;
+		  keys.forEach(function(k){
+		     if(hash[k]>max)max = hash[k]; 
+		  });
+		  //console.log(max);
+		  if(max>0){
+		  var colors = get_hex(max+2);
+		  
+        	keys.forEach(function(k){
+		     
+		     //console.log("thissss"+hash[k]);
+		     graph.forEachNode(function(node){
+		       if(node.id === k){
+		         var nodeUI = graphics.getNodeUI(node.id);
+		         nodeUI.childNodes[0].attr('fill', colors[max-hash[k]]);
+		       }
+		     });
+		  
+		  });
+		  }
+		  
+		  arrayNodes.forEach(function(node){
+		  var nodeUI = graphics.getNodeUI(node);
+		  if(nodeUI != null)
+		  nodeUI.childNodes[0].attr('stroke','#555').attr('stroke-width','5');
+		  });
+		  
+        }, 100);
+         
+         $("#match-path-btn").click(function(){
+            //console.log("aaaa");
+            graph.forEachNode(function(node){
+		       graph.removeNode(node.id);
+		     });
+		     var rootnode = graph.addNode('all', 'root');
+		     layout.pinNode(rootnode,true);
+		     
+             event.preventDefault();
+            var temp_terms = $("#submit-txt").val().split("\n");
+            
+            var re = /GO\:\d{7}/;
+            var g_terms = new Array();
+            temp_terms.forEach(function(entry){
+                console.log(entry);
+            	var tmp = re.exec(entry);
+            	console.log(tmp);
+            	
+            	if(tmp!=null)g_terms.push(tmp[0]);
+            });
+            
+            //console.log(g_terms);
+            g_terms.forEach(function(id){
+            	arrayNodes.push(id);
+            	matchPath(id);
+            });
+           
+            
+    	});
+    	// only showing nodes on path
+    	 function matchPath(term){
+        	
+       		var g_term = term;
+      		$.getJSON("http://dragon.bio.purdue.edu:4567/get_path/"+g_term+"",function(json){
+        		var myjson = [];
+				for(var i = 0; i< Object.keys(json).length; i++){
+					if(hash[json[i].id] == undefined){
+						hash[json[i].id] = 0;
+					}
+					else hash[json[i].id]++;
+					//console.log(hash[json[i].id]);
+                    
+          			//var tmpid;
+	  				//if(i!=0)tmpid = json[i].id.split(":");
+	  				//else tmpid = "all";
+	  	  
+	  				graph.addNode(json[i].id,json[i].name);
+	  				if(Object.keys(json[i].children).length == 0){
+	  					if(json[i].id != term)graph.removeNode(json[i].id);
+	  				}
+	  				for(var j = 0; j< Object.keys(json[i].children).length; j++){
+						graph.addNode(json[i].children[j].id,json[i].children[j].name);
+						graph.addLink(json[i].id, json[i].children[j].id);
+					}
+	  				
+	  				
+	  				//console.log(tmpid);
+	  				//$("#GO\\:"+tmpid[1]).trigger('click');	  
+				}
+			});
+		}
+        
+        $("#match-btn").click(function(){
+            //console.log("aaaa");
+            event.preventDefault();
+            var g_term = $("#search-txt").val();
+            match(g_term);
+            
+    	});
+    	$("#submit-btn").click(function(){
+            //console.log("aaaa");
+            event.preventDefault();
+            var temp_terms = $("#submit-txt").val().split("\n");
+            
+            var re = /GO\:\d{7}/;
+            var g_terms = new Array();
+            temp_terms.forEach(function(entry){
+                console.log(entry);
+            	var tmp = re.exec(entry);
+            	console.log(tmp);
+            	
+            	if(tmp!=null)g_terms.push(tmp[0]);
+            });
+            
+            console.log(g_terms);
+            g_terms.forEach(function(id){
+            	arrayNodes.push(id);
+            	match(id);
+            });
+           
+    	}); 
+    	 $("#reset-btn").click(function(){
+            //console.log("aaaa");
+            graph.forEachNode(function(node){
+		       graph.removeNode(node.id);
+		     });
+		     graph.addNode('all', 'root');
+            });
+    
+    $( "#slider-range-min" ).slider({
+      range: "min",
+      value: 80,
+      min: 0,
+      max: 500,
+      slide: function( event, ui ) {
+        $( "#amount" ).val( ui.value );
+        
+        console.log(layout);
+        layout.gravity(-ui.value);
+        renderer.resume();
+        //console.log(st.config.levelDistance);
+      }
+    });
+    $( "#amount" ).val( $( "#slider-range-min" ).slider( "value" ) );
+    
+    $( "#slider-length-min" ).slider({
+      range: "min",
+      value: 150,
+      min: 10,
+      max: 1000,
+      slide: function( event, ui ) {
+        $( "#amount2" ).val( ui.value );
+        
+        
+        layout.springLength(ui.value);
+        renderer.resume();
+        //console.log(st.config.levelDistance);
+      }
+    });
+    $( "#amount2" ).val( $( "#slider-length-min" ).slider( "value" ) );
+    
+    $( "#slider-size-min" ).slider({
+      range: "min",
+      value: 12,
+      min: 12,
+      max: 200,
+      slide: function( event, ui ) {
+        $( "#amount3" ).val( ui.value );
+         graph.forEachNode(function(node){
+		       var nodeUI = graphics.getNodeUI(node.id);
+		       nodeUI.childNodes[1].attr('font-size', ui.value+"px");
+		      
+		 });
+        
+        
+        renderer.resume();
+        //console.log(st.config.levelDistance);
+      }
+    });
+    $( "#amount3" ).val( $( "#slider-size-min" ).slider( "value" ) );
+            
+</script>
+</html>
+    
