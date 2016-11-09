@@ -23,7 +23,6 @@ echo "create database GO_201611" | mysql --user=db_login --password=db_password
 mysql --user=db_login --password=db_password GO_201611 < go_monthly-termdb-data
 ```
 
-<br>
  
 User can simply run GOVisualizer with following step:
 
