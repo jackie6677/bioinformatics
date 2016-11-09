@@ -1,1 +1,36 @@
-User can set up the GOVisualizer with following step:
+<h1>GO Visualizer</h1>
+
+Info
+-----
+GO Visualizer is a tool developed to visualize GO DAG in an interactive way.
+
+![alt tag](http://kiharalab.org/web/govis.png)
+
+Setup
+-----
+Make sure the Ruby and Gem is installed before running GOVisualizer:
+```bash
+gem install sinatra
+```
+
+<br>
+Also make sure there is a local setup of mysql and you should import the GO database downloaded from 
+<a href="http://archive.geneontology.org/latest-full/">GO Consortium</a>
+
+<br>
+ 
+User can simply run GOVisualizer with following step:
+
+```bash
+$ git https://github.com/kiharalab/GOVisualizer.git
+$ cd GOVisualizer
+$ mv config_template.rb config.rb
+```
+
+Now you need to change the setting in config.rb according to your local mysql setting. Then
+
+```bash
+$ ruby server.rb
+```
+
+Server should be running at http://localhost:4567.
