@@ -8,14 +8,20 @@ GO Visualizer is a tool developed to visualize GO DAG in an interactive way.
 
 Setup
 -----
-Make sure the Ruby and Gem is installed before running GOVisualizer:
+Make sure the Ruby and Gem is installed, before running GOVisualizer we need to install Sinatra:
 ```bash
 gem install sinatra
 ```
 
 <br>
 Also make sure there is a local setup of mysql and you should import the GO database downloaded from 
-<a href="http://archive.geneontology.org/latest-full/">GO Consortium</a>
+<a href="http://archive.geneontology.org/latest-full/">GO Consortium</a>, For example
+```bash
+wget http://archive.geneontology.org/latest-full/go_monthly-termdb-data.gz
+gunzip go_monthly-termdb-data.gz
+echo "create database GO_201611" | mysql --user=db_login --password=db_password
+mysql --user=db_login --password=db_password GO_201611 < go_monthly-termdb-data
+```
 
 <br>
  
