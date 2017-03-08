@@ -1,3 +1,7 @@
+# GO Visualizer is  released under the terms of the GNU Lesser General Public License Ver.2.1. 
+# https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
+
+
 # HELPER FUNCTIONS
 
 # database functions
@@ -78,8 +82,8 @@ def get_path(conn, term_acc)
                h[e[1]] = 1
                
                c = get_childrenPath conn, e[1]
-               buf = conn.query "SELECT DISTINCT ancestor.name, ancestor.acc, graph_path.distance, graph_path.term1_id AS ancestor_id
-               FROM term child, graph_path, term ancestor WHERE child.id=graph_path.term2_id AND ancestor.id=graph_path.term1_id
+               buf = conn.query "SELECT DISTINCT ancestor.name, ancestor.acc, graph_path.distance, graph_path.term1_id AS ancestor_id, relation.name AS relation_name
+               FROM term child, graph_path, term ancestor, term relation WHERE child.id=graph_path.term2_id AND ancestor.id=graph_path.term1_id AND graph_path.relationship_type_id = relation.id
                AND child.acc=\"#{term_acc}\" AND graph_path.relationship_type_id <= 30 ORDER BY distance DESC"
                
                temp = []
@@ -88,8 +92,8 @@ def get_path(conn, term_acc)
                    until $i >= c.length
                        if c[$i].eql? b[1]
                        then
-                            buffer = [b[0],b[1],b[2]]
-                            temp.push hashify_term buffer
+                            buffer = [b[0], b[1], b[4], []]
+                            temp.push hashify_4term buffer
                             
                        end
                        $i += 1
@@ -139,6 +143,10 @@ end
 
 def hashify_myterm(term)
   return {:id => term[1], :name => term[0], :data => {}, :children => term[3]}
+end
+
+def hashify_4term(term)
+  return {:id => term[1], :name => term[0], :data => term[2], :children => term[3]}
 end
 
 # returns list of parent terms (term name, GO:XXXXXXX) that are shared between two nodes

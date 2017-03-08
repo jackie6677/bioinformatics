@@ -1,3 +1,8 @@
+
+# GO Visualizer is  released under the terms of the GNU Lesser General Public License Ver.2.1. 
+# https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
+
+
 require 'rubygems'
 require 'sinatra'
 require 'json'

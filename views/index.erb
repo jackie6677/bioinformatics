@@ -1,4 +1,6 @@
-
+<!-- # GO Visualizer is  released under the terms of the GNU Lesser General Public License Ver.2.1. 
+# https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
+-->
 <html>
 <head>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
